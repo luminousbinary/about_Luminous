@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    color: #40514e;
+}
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: cursive;
+    color: #FFFFD2;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+hr {
+    border: 7px dotted;
+    border-bottom: 0;
+    width: 5%;
+    color: #EAF6F6;
+}
+
+h3 {
+    color: #A8D8EA;
+    font-size: 1rem   ;
+}
+
+a {
+    color: #FFFFD2;
+    text-decoration: none;
+    margin: auto 30px;
+}
+
+a:hover{
+    color: #616147;
+
+}
+
+p{
+    line-height: 2;
+
+}
+
+
+.profile-image {
+    width: 10%;
+}
+
+.profile {
+    margin: 50px auto;
+
+}
+
+.skill-row {
+    position: relative;
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.comp-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.outdoors-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.top-container {
+
+    background-color: #A8D8EA;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.bot-cloud {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 321px;
+}
+
+.under {
+    text-decoration: none;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.btn{
+    background-color:  #11999E;
+    border: 12px;
+    border-radius: 9%;
+    margin:20px 10px;
+
+}
+.middle-container {
+    margin: 100px 0px;
+}
+
+.bottom-container{ 
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 50px;
+    background-color: #A8D8EA;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 50px auto;
+}
+
+.contact-me{
+    width: 50%;
+    margin: auto;
+}
+
+.copyright{
+    margin-bottom: 0px;
+
+}
+
+
+/* 
+#A8D8EA -60
+#AA96DA -25
+#FFFFD2 -5
+#FCBAD3 -10
+
+*/
