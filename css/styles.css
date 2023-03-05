@@ -1,4 +1,5 @@
 body {
+    /* margin-  block-start: 0 /  ; */
     margin: 0;
     text-align: center;
     font-family: verdana, sans-serif;
@@ -34,7 +35,7 @@ h3 {
 }
 
 a {
-    color: #FFFFD2;
+    color: #092b52ee;
     text-decoration: none;
     margin: auto 30px;
 }
@@ -49,13 +50,17 @@ p{
 
 }
 
+/* .skill{
+    position: relative;
+
+} */
 
 .profile-image {
-    width: 10%;
+    width: 20%;
 }
 
 .profile {
-    margin: 50px auto;
+    margin: 0 auto 50px auto;
 
 }
 
@@ -67,6 +72,7 @@ p{
 }
 
 .comp-img {
+    /* position: relative; */
     width: 25%;
     float: left;
     margin-right: 30px;
@@ -74,6 +80,7 @@ p{
 }
 
 .outdoors-img {
+    /* position: relative; */
     width: 25%;
     float: right;
     margin-left: 30px;
@@ -113,6 +120,7 @@ p{
     background-color:  #11999E;
     border: 12px;
     border-radius: 9%;
+    /* padding: 15px 10px; */
     margin:20px 10px;
 
 }
@@ -142,6 +150,47 @@ p{
 
 }
 
+
+/* The about me section */
+table{
+    position: relative;
+    
+}
+
+
+/* 
+.container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: gray; 
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    
+}
+
+.blue {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.yellow {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    
+    
+} */
 
 /* 
 #A8D8EA -60
