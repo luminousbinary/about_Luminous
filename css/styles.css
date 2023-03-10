@@ -31,29 +31,54 @@ hr {
 
 h3 {
     color: #A8D8EA;
-    font-size: 1rem   ;
+    font-size: 1rem;
 }
 
-a {
-    color: #092b52ee;
-    text-decoration: none;
-    margin: auto 30px;
-}
 
-a:hover{
-    color: #616147;
-
-}
-
-p{
+p {
     line-height: 2;
 
+}
+
+/* buttons */
+.contact-button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+}
+
+.contact-button:hover:after {
+    top: 0;
+    left: 0;
+}
+
+.contact-button:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #3a86ff;
 }
 
 /* .skill{
     position: relative;
 
 } */
+/* The HERO section */
 
 .profile-image {
     width: 20%;
@@ -111,52 +136,67 @@ p{
     text-decoration: none;
 }
 
-.intro{
+.intro {
     width: 30%;
     margin: auto;
 }
 
-.btn{
-    background-color:  #11999E;
-    border: 12px;
-    border-radius: 9%;
-    /* padding: 15px 10px; */
-    margin:20px 10px;
 
-}
 .middle-container {
     margin: 100px 0px;
 }
 
-.bottom-container{ 
-    height: 100px;
-    padding-top: 30px;
-    margin-top: 50px;
-    background-color: #A8D8EA;
-}
 
-.contact-message{
+.contact-message {
     width: 40%;
     margin: 50px auto;
 }
 
-.contact-me{
+.contact-me {
     width: 50%;
     margin: auto;
 }
 
-.copyright{
+.copyright {
     margin-bottom: 0px;
 
 }
 
 
 /* The about me section */
-table{
+table {
     position: relative;
-    
+
 }
 
+
+/* Footer Section */
+.social-link {
+    min-width: 120px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #3a86ff;
+    background: #3a86ff;
+}
+
+.social-link:hover {
+    background: #fff;
+    color: #3a86ff
+}
+
+.bottom-container {
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 50px;
+    background-color: #A8D8EA;
+}
 
 /* 
 .container{
