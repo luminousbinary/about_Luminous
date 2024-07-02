@@ -1,5 +1,7 @@
 # about_Luminous
 
-# A CV
+# A CVmini
 
+FOR HNG VIEW
 https://luminousbinary.github.io/about_Luminous/
+ 
