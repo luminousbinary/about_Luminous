@@ -27,7 +27,7 @@
     <div class="middle-container">
       <div class="profile">
         <img
-        data-testid="slackProfilePicture"
+          data-testid="slackProfilePicture"
           class="profile-image"
           src="images/me.png"
           alt="Oluwa-Tolase-profile-img"
@@ -39,9 +39,10 @@
         </p>
         <p class="details">
           find me on slack:
-          <span data-testid="slackDisplayName"> name </span> .  Current Time :
-          <span data-testid="currentTimeUTC">time</span>. Today is :
-          <span data-testid="currentDay"></span>.
+          <span data-testid="slackDisplayName"> t2lase </span>, Or search for my
+          email : <span data-testid="slackEmail">aolutolacaleb@gmail.com</span>.
+          Current Time : <span data-testid="currentTimeUTC">time</span>. Today
+          is : <span data-testid="currentDay"></span>.
         </p>
         Slack name, slack profile picture, links
       </div>
@@ -95,6 +96,22 @@
         </p>
         <a class="contact-button" href="mailto:aolutolacaleb@gmail.com"
           >CONTACT ME</a
+        ><a
+          class="contact-button"
+          data-testid="hngLink"
+          href="https://hng.tech/learn"
+          >hng.tech/learn</a
+        ><a
+          class="contact-button"
+          data-testid="keywordLink"
+          href="https://keyword.dog/"
+          >keyword.dog</a
+        ><a
+          class="contact-button"
+          data-testid="scrapeanywebLink"
+          href="https://scrapeanyweb.site/"
+        >
+          scrapeanyweb.site</a
         >
       </div>
     </div>
@@ -123,35 +140,16 @@
         "Friday",
         "Saturday",
       ];
-      document.querySelector('span[data-testid="currentDay"]').textContent =daylist[day]  ;
-      // console.log("Today is : " + daylist[day] + ".");
+      document.querySelector('span[data-testid="currentDay"]').textContent =
+        daylist[day];
       var hour = today.getHours();
       var minute = today.getMinutes();
       var second = today.getSeconds();
-      // var prepand = hour >= 12 ? " PM " : " AM ";
-      // hour = hour >= 12 ? hour - 12 : hour;
-      // if (hour === 0 && prepand === " PM ") {
-      //   if (minute === 0 && second === 0) {
-      //     hour = 12;
-      //     prepand = " Noon";
-      //   } else {
-      //     hour = 12;
-      //     prepand = " PM";
-      //   }
-      // }
-      // if (hour === 0 && prepand === " AM ") {
-        if (minute === 0 && second === 0) {
-          hour = 12;
-          prepand = " Midnight";
-        } else {
-          hour = 12;
-          prepand = " AM";
-        }
-      }
-      document.querySelector('span[data-testid="currentTimeUTC"]').textContent =` ${hour}:${minute}`  ;
-      // console.log(
-      //   " " 
-      // );
+      hour = hour >= 12 ? hour : hour;
+
+      document.querySelector(
+        'span[data-testid="currentTimeUTC"]'
+      ).textContent = ` ${hour}:${minute}:${second}`;
     </script>
   </body>
 </html>
